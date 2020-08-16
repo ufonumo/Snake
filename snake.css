@@ -1,0 +1,63 @@
+body{
+    background-image: url(assets/67e6e990067265.5e0c668008f10.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.grid{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgba(245, 239, 239, 0.849);
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.snake{
+    background-color: rgba(83, 72, 47, 0.952);
+}
+
+.apple{
+    background-color: seagreen;
+}
+
+.start{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgba(109, 105, 105, 0.301);
+    background-color: rgb(234, 239, 247);
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.score{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
